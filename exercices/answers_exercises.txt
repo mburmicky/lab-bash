@@ -1,0 +1,107 @@
+Question 1
+
+C:\Users\mburm\IH-Labs>echo "Hello World"
+"Hello World"
+
+Question 2
+
+C:\Users\mburm\IH-Labs>cd new_dir
+
+Question 3
+
+C:\Users\mburm\IH-Labs>rmdir new_dir
+
+Question 4
+
+C:\Users\mburm\IH-Labs\lab-bash\lorem>copy sed.txt C:\Users\mburm\IH-Labs\lab-bash\lorem-copy
+        1 file(s) copied.
+
+Question 5
+
+C:\Users\mburm\IH-Labs\lab-bash\lorem>for %I in (lorem.txt at.txt) do copy %I C:\Users\mburm\IH-Labs\lab-bash\lorem-copy
+
+C:\Users\mburm\IH-Labs\lab-bash\lorem>copy lorem.txt C:\Users\mburm\IH-Labs\lab-bash\lorem-copy
+        1 file(s) copied.
+
+C:\Users\mburm\IH-Labs\lab-bash\lorem>copy at.txt C:\Users\mburm\IH-Labs\lab-bash\lorem-copy
+        1 file(s) copied.
+
+Question 6
+
+C:\Users\mburm\IH-Labs\lab-bash\lorem>type C:\Users\mburm\IH-Labs\lab-bash\lorem\sed.txt
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+
+Question 7 
+
+I did not found a way to copy both files using semicolon. Instead, used the commands metioned above"
+
+Question 8
+
+I did not found a way to print first 3 rows
+
+Question 9
+
+I did not found a way to print last 3 rows
+
+Question 10
+
+C:\Users\mburm\IH-Labs\lab-bash\lorem-copy>echo "Homo homini lupus." >> C:\Users\mburm\IH-Labs\lab-bash\lorem-copy\sed.t
+xt
+
+Question 11 
+
+I did not found a way to print last 3 rows
+
+Question 12
+
+Revised in detail provided link. Tried with CAT command. Got an error saying "cat is not recognized as an internal or external command..."
+
+Question 13
+
+C:\>net user
+
+User accounts for \\MATIAS
+
+-------------------------------------------------------------------------------
+Administrator            DefaultAccount           Guest
+mburm                    WDAGUtilityAccount
+The command completed successfully.
+
+Question 14
+
+C:\Users\mburm\IH-Labs\lab-bash\lorem>cd
+
+C:\Users\mburm\IH-Labs\lab-bash\lorem
+
+Question 15
+
+C:\Users\mburm\IH-Labs\lab-bash\lorem>dir *txt
+ Volume in drive C is Local Disk
+ Volume Serial Number is EA50-0269
+
+ Directory of C:\Users\mburm\IH-Labs\lab-bash\lorem
+
+01/04/2024  12:05               863 at.txt
+01/04/2024  12:05               861 at.txte
+01/04/2024  12:05               451 lorem.txt
+01/04/2024  12:05               900 sed.txt
+               4 File(s)          3.075 bytes
+               0 Dir(s)  18.709.995.520 bytes free
+
+Question 16
+
+C:\Users\mburm\IH-Labs\lab-bash\lorem>type C:\Users\mburm\IH-Labs\lab-bash\lorem\sed.txt | find /v /c ""
+
+9
+
+Question 17
+
